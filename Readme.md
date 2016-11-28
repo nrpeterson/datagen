@@ -30,8 +30,9 @@ Char, Long, Float, and Double.
     * Singleton types (case objects, etc)
     * Products of types with known instances, and isomorphic types (case 
       classes, tuples, etc)
-    * Coproducts of types with known generators. (A top-level type is chosen
-      uniformly at random, and then the type-specific generator is invoked.)
+    * Coproducts of types with known generators, and isomorphic types (e.g. 
+      sealed traits with implementations). A top-level type is chosen
+      uniformly at random, and then the type-specific generator is invoked.
       
 ## Have Any Suggestions?
 
